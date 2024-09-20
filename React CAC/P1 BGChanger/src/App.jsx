@@ -67,7 +67,7 @@ function App() {
           >Pink
           </button>
 
-        </div>  
+       </div>  
       </div>
      
     
