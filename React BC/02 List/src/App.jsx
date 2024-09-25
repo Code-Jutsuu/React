@@ -1,3 +1,4 @@
+import Button from "./assets/Button";
 import List from "./assets/List";
 
 function App(){
@@ -21,6 +22,8 @@ const vegetables = [
     <>
         {fruits.length > 0 && <List items={fruits} category="Fruits"/>}
         {vegetables.length > 0 && <List items={vegetables} category="Vegetables"/>} 
+        <hr /><br/><br/>
+        <Button/>
     </>
   );
 
