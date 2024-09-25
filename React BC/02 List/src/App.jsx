@@ -1,5 +1,6 @@
 import Button from "./assets/Button";
 import List from "./assets/List";
+import ProfilePicture from "./assets/ProfilePicture";
 
 function App(){
   
@@ -24,6 +25,7 @@ const vegetables = [
         {vegetables.length > 0 && <List items={vegetables} category="Vegetables"/>} 
         <hr /><br/><br/>
         <Button/>
+        <ProfilePicture/>
     </>
   );
 
