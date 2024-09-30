@@ -1,7 +1,7 @@
 import React from "react";
 import {
   FaCss3,
-  FaFigma,
+  FaJava,
   FaHtml5,
   FaJs,
   FaReact,
@@ -30,7 +30,7 @@ const Experience = () => {
               <FaJs color="#F7DF1E" size={50} />
             </span>
             <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
-              <FaFigma color="#F24E1E" size={50} />
+              <FaJava color="#F24E1E" size={50} />
             </span>
             <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
               <SiMongodb color="#47A248" size={50} />

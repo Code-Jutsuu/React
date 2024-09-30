@@ -1,7 +1,9 @@
 import AboutMe from "./components/AboutMe.jsx";
 import Experience from "./components/Experience.jsx";
+import Footer from "./components/Footer.jsx";
 import Home from "./components/Home.jsx";
 import Navbar from "./components/Navbar.jsx"
+import Projects from "./components/Projects/Projects.jsx";
 
 
 function App() {
@@ -13,7 +15,8 @@ function App() {
       <Home />
       <AboutMe />
       <Experience />
-      
+      <Projects />
+      <Footer />
     </div>
    
   );
